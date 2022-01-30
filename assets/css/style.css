@@ -136,10 +136,9 @@ section {
  background: #fce138;
 }
 
-
-
 .steps div {
  margin-bottom: 80px;
+}
 
 .steps img {
   width: 15%;
@@ -170,30 +169,31 @@ section {
   border-bottom: 3px solid;
    }
    
-   .primary-border {
+.primary-border {
      border-color: #fce138;
    }
    
-   .secondary-border {
+.secondary-border {
      border-color: #39a6b2;
      }
 
-     .trainer {
-       text-align: center;
-     }
-     
-     .trainer {
-       width: 900px;
-       margin: 0 auto 30px auto;
-       background: #024e76;
-       color: #fce138;
-     }
+.trainers {
+text-align: center;
+}
 
-     .trainer img {
-         width: 35%;
-         float: left;
-     }
-   .trainer bio {
+.trainer {
+width: 900px;
+margin: 0 auto 30px auto;
+background: #024e76;
+color: #fce138;
+overflow: auto;
+}
+
+.trainer img {
+    width: 35%;
+    float: left;
+}
+   .trainer-bio {
      padding: 35px;
      float: left;
      width: 65%;
@@ -223,15 +223,7 @@ section {
     text-align: right;
   }
 
-  .section-title {
-      font-size: 55px;
-      display: inline-block;
-      padding: 0 100px 20px 100px;
-      border-bottom: 3px solid;
-      margin-bottom: 35px;
-      color: #024e76;
-  }
-  
+    
   /* REACH OUT STYLES START */
   .contact {
       text-align: center;
