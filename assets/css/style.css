@@ -5,7 +5,6 @@ box-sizing: border-box;
 }
 
 body{
-/* more on this crazy alphanumberical value in a minute! */
 color: #39a6b2;
 font-family:  Helvetica, Arial, sans-serif;
 }
@@ -24,8 +23,6 @@ font-weight: bold;
 margin: 0;
 font-size: 36px;
 color: #fce138;
-
-
 }
 
 header a { 
@@ -34,18 +31,21 @@ color: #fce138;
 }
 
 header nav {
-
 margin: 7px 0;
 }
 
-header nav ul li {
-display: inline;
+header nav ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+list-style: none;
 }
 
 header nav ul li a {
 margin: 0 30px;
 font-weight: lighter;
-font-size: 22px;
+font-size: 1.55vw;
 }
 
 footer {
