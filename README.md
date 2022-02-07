@@ -12,3 +12,5 @@ A website that offers fitness training services.
 
 ## Contribution
 Made with love by Ashley Lawrence
+
+## ©2022 Run Buddy, Inc.
